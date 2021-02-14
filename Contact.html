@@ -3,29 +3,50 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-  <h3>Lets work on a project together</h3>
-  <p>Contat me below</p>
-  <p><a href="mailto:anthonyd@goind.com.au?subject=feedback">anthonyd@goind.com.au</a></p>
-  <p><a href="tel:0403722377">0403722377</a></p>
-  <p>Or simply fill out the contact form below</p>
+  <h2>Lets work on a project together</h2>
+  <hr>
+  <style>
+    h3 {
+      margin-left: auto;
+    }
+  </style>
+  <h3>Contat me below</h3>
+  <style>
+    h5{
+      margin-left: 15px;
+    }
+  </style>
+  <h5><a href="mailto:anthonyd@goind.com.au?subject=feedback">anthonyd@goind.com.au</a></h5>
+  <h5><a href="tel:0403722377">0403722377</a></h5>
+  <hr>
+  <h3>Or simply fill out the contact form below</h3>
+  <style>
+    form {
+      margin-left: 15px;
+    }
+    input{
+      margin-bottom: 12px;
+    }
+  </style>
   <form action="mailto:anthonyd@goind.com.au" method="post" enctype="text/plain">
-    <label> Your Name: </label>
+    <label> Your Name: </label> <br>
     <input type="text" name="YourName" value=""><br>
-    <label> Your Email: </label>
+    <label> Your Email: </label> <br>
     <input type="email" name="YourEmail" value=""><br>
     <label> Your Message: </label><br>
     <textarea name="YourMessage" rows="6" cols="20"></textarea><br>
-    <label>Supporting Examples</label>
+    <label>Supporting Examples:</label><br>
     <input type="file" name="File"><br>
-    <label>What date works best for you?</label>
+    <label>What date works best for you?</label><br>
     <input type="Date" name="Date"><br>
     <label>Do you want to be in the loop?</label>
     <input type="checkbox" name="SignUp" /><br>
-    <input type="Submit">
+    <input type="Submit"><br>
   </form>
   </form>
 
